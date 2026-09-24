@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Leia Mais — Livraria</title>
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a href="#inicio" class="logo-link">
+            <img
+                src="img/logo.png"
+                alt="Leia Mais — Livraria"
+                class="logo"
+            >
+        </a>
+
+	<h1>Livraria Leia Mais</h1>
+
+        <nav aria-label="Navegação principal">
+            <ul class="menu">
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#livros">Livros</a>
+                </li>
+
+                <li>
+                    <a href="#diferenciais">Diferenciais</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 1. INÍCIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-conteudo">
+                <p class="rotulo">LIVRARIA LEIA MAIS</p>
+
+                <h1>Encontre sua próxima história</h1>
+
+                <p class="hero-texto">
+                    Livros, descobertas e histórias para acompanhar cada
+                    momento da sua vida.
+                </p>
+
+                <a class="btn btn-principal" href="#livros">
+                    Explorar livros
+                </a>
+            </div>
+
+            <div class="hero-imagem">
+                <img
+                    src="img/livraria.jpg"
+                    alt="Interior aconchegante da Livraria Leia Mais"
+                >
+            </div>
+        </section>
+
+        <!-- 2. SOBRE -->
+        <section id="sobre" class="secao sobre">
+            <div class="sobre-imagem">
+                <img
+                    src="img/livros.jpg"
+                    alt="Estantes de livros da Livraria Leia Mais"
+                >
+            </div>
+
+            <div class="sobre-conteudo">
+                <p class="rotulo">SOBRE NÓS</p>
+
+                <h2>Um espaço para quem gosta de histórias</h2>
+
+                <p>
+                    A Leia Mais nasceu em Manaus com o propósito de
+                    aproximar leitores de novas histórias.
+                </p>
+
+                <p>
+                    Reunimos livros de diferentes gêneros e buscamos criar
+                    uma experiência acolhedora para quem já ama ler e para
+                    quem está começando a descobrir o universo da literatura.
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. LIVROS -->
+        <section id="livros" class="secao">
+
+            <div class="cabecalho-secao">
+                <p class="rotulo">NOSSO CATÁLOGO</p>
+
+                <h2>Livros em destaque</h2>
+
+                <p>
+                    Algumas histórias que selecionamos para você descobrir.
+                </p>
+            </div>
+
+            <div class="lista-livros">
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/hobbit.jpg"
+                            alt="Capa do livro O Hobbit"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Fantasia</p>
+                        <h3>O Hobbit</h3>
+                        <p class="autor">J. R. R. Tolkien</p>
+                        <p class="preco">R$ 59,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/coraline.jpg"
+                            alt="Capa do livro Coraline"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Fantasia</p>
+                        <h3>Coraline</h3>
+                        <p class="autor">Neil Gaiman</p>
+                        <p class="preco">R$ 39,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/biblioteca.jpg"
+                            alt="Capa do livro A Biblioteca da Meia-Noite"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Ficção</p>
+                        <h3>A Biblioteca da Meia-Noite</h3>
+                        <p class="autor">Matt Haig</p>
+                        <p class="preco">R$ 49,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/pequeno_principe.jpg"
+                            alt="Capa do livro O Pequeno Príncipe"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Clássico</p>
+                        <h3>O Pequeno Príncipe</h3>
+                        <p class="autor">Antoine de Saint-Exupéry</p>
+                        <p class="preco">R$ 34,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/1984.jpg"
+                            alt="Capa do livro 1984"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Ficção científica</p>
+                        <h3>1984</h3>
+                        <p class="autor">George Orwell</p>
+                        <p class="preco">R$ 44,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/orgulho.jpg"
+                            alt="Capa do livro Orgulho e Preconceito"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Romance</p>
+                        <h3>Orgulho e Preconceito</h3>
+                        <p class="autor">Jane Austen</p>
+                        <p class="preco">R$ 42,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/percy.jpg"
+                            alt="Capa do livro Percy Jackson e o Ladrão de Raios"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Aventura</p>
+                        <h3>Percy Jackson e o Ladrão de Raios</h3>
+                        <p class="autor">Rick Riordan</p>
+                        <p class="preco">R$ 49,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/tortoarado.jpg"
+                            alt="Capa do livro Torto Arado"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Literatura brasileira</p>
+                        <h3>Torto Arado</h3>
+                        <p class="autor">Itamar Vieira Junior</p>
+                        <p class="preco">R$ 59,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card-livro">
+                    <div class="capa-livro">
+                        <img
+                            src="img/anne.jpg"
+                            alt="Capa do livro Anne de Green Gables"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p class="categoria">Clássico</p>
+                        <h3>Anne de Green Gables</h3>
+                        <p class="autor">L. M. Montgomery</p>
+                        <p class="preco">R$ 39,90</p>
+
+                        <a href="#contato" class="btn btn-secundario">
+                            Comprar
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 4. DIFERENCIAIS -->
+        <section id="diferenciais" class="secao diferenciais">
+
+            <div class="cabecalho-secao">
+                <p class="rotulo">POR QUE A LEIA MAIS?</p>
+
+                <h2>Mais do que uma livraria</h2>
+            </div>
+
+            <div class="lista-diferenciais">
+
+                <article class="diferencial">
+                    <span class="icone" aria-hidden="true">📚</span>
+
+                    <h3>Organização</h3>
+
+                    <p>
+                        Selecionamos histórias para ajudar você a descobrir
+                        novos autores e gêneros.
+                    </p>
+                </article>
+
+                <article class="diferencial">
+                    <span class="icone" aria-hidden="true">☕</span>
+
+                    <h3>Ambiente acolhedor</h3>
+
+                    <p>
+                        Um espaço tranquilo para conhecer livros e conversar
+                        sobre literatura.
+                    </p>
+                </article>
+
+                <article class="diferencial">
+                    <span class="icone" aria-hidden="true">💬</span>
+
+                    <h3>Clube do livro</h3>
+
+                    <p>
+                        Encontros para leitores compartilharem histórias,
+                        ideias e recomendações.
+                    </p>
+                </article>
+
+            </div>
+
+            <blockquote class="depoimento">
+                <p>
+                    “Sempre encontro uma história nova para levar comigo.”
+                </p>
+
+                <cite>— Júlia, cliente da Leia Mais</cite>
+            </blockquote>
+
+        </section>
+
+        <!-- 5. CONTATO -->
+        <section id="contato" class="secao contato">
+
+            <div class="cabecalho-secao">
+                <p class="rotulo">FALE CONOSCO</p>
+
+                <h2>Vamos encontrar seu próximo livro?</h2>
+
+                <p>
+                    Entre em contato para consultar a disponibilidade de um
+                    título ou saber mais sobre a livraria.
+                </p>
+            </div>
+
+            <form class="formulario">
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                        aria-describedby="ajuda-email"
+                    >
+
+                    <small id="ajuda-email">
+                        Vamos responder à sua mensagem.
+                    </small>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-principal">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+            <address class="informacoes-contato">
+
+                <p>
+                    <a
+                        href="https://wa.me/5592999999999"
+                        class="link-contato"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src="img/w.png" alt="WhatsApp">
+                        <strong>WhatsApp:</strong> (92) 99999-9999
+                    </a>
+                </p>
+
+                <p>
+                    <a
+                        href="https://www.instagram.com/leia+"
+                        class="link-contato"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src="img/i.png" alt="Instagram">
+                        <strong>Instagram:</strong> @leia+
+                    </a>
+                </p>
+
+                <p>
+                    <a
+                        href="mailto:contato@leiamais.com.br"
+                        class="link-contato"
+                    >
+                        <img src="img/e.png" alt="E-mail">
+                        <strong>E-mail:</strong> contato@leiamais.com.br
+                    </a>
+                </p>
+
+                <p>
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Manaus+AM"
+                        class="link-contato"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src="img/casa.png" alt="Endereço">
+                        <strong>Endereço:</strong> Manaus/AM
+                    </a>
+                </p>
+
+            </address>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>
+            Leia Mais · Livraria · Manaus/AM
+        </p>
+
+        <p>
+            <a href="#">Web Designer - Gleiceanne Marques da Silva</a>
+        </p>
+    </footer>
+
+</body>
+</html>
